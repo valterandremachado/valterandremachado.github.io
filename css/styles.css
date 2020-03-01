@@ -1,0 +1,517 @@
+
+.navbar-brand a
+{
+    padding-left: 0px;
+    /*background-color: #e3e3e3;*/
+    position: relative;
+}
+/*.navbar .navbar-default .navbar-fixed-top {
+    background-color: transparent;
+    border-color: transparent;
+    -webkit-transition: background-color 2s; /* Safari */
+    /*transition: background-color 2s; 
+    color: red;
+}*/
+.nav-link {
+color: white !important;
+font-weight: normal;
+}
+/*.navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: transparent !important;
+}*/
+
+a{
+    font-family: "Catamaran";
+
+}
+
+/*nav-item indicator */
+.navbar .active{
+  border-bottom: 3px solid white;
+  color: #ffffff;
+  font-weight: bold;
+  position: relative;
+  /*background: #3beadc;*/
+}
+
+.navbar-toggler .icon-bar {
+  margin: 5px;
+  display: block;
+}
+
+.navbar{
+	/*height: 20px;*/
+  font-family: "Catamaran";
+  transition-duration: 1.5s;
+
+
+}
+
+div{
+  font-family: "Catamaran";
+}
+
+.aboutMeContainer{
+	/*background-color: red;*/
+	text-align: center;
+}
+
+.avatarImage img {
+  color: red;
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+
+}
+.whatIDoContainer{
+	/*border: 1px solid #ddd;*/
+    /*border-radius: 4px 4px 4px 4px;*/
+    text-align: center;
+    background-color: #e3e3e3; 
+    /*column-gap: 34;*/
+    width: auto;
+    margin-top: -300px;
+    padding: 5px 100px 50px 100px;
+
+
+}
+
+.whatIDoContainer h3{
+	margin-top: -20px;
+}
+.whatIDoContainer img{
+  width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    /*padding: 20px 20px 20px 20px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.whatIDoContainer div{
+padding-bottom: 4%;
+}
+
+.whatIDoContainer p{
+  text-align: center;
+  margin:10;
+  padding:0;
+  border:0;
+  /*display:inline-block;*/
+  /*line-height: 1.6;*/
+  /*line-height: 32px; */
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.experienceContainerView p {
+	display:inline-block;
+	text-align: center;
+	width: 40%;
+	margin-bottom: 10px;
+}
+.experienceContainerView{
+	/*background-color: #f4f4f4;*/
+  padding-bottom: -4%;
+}
+
+.experienceContainerView h6{
+	margin-bottom: 30px;
+}
+
+
+
+html { 
+  scroll-behavior: smooth; 
+  height: 100%;
+} 
+
+/*hero image style*/
+body, html {
+  height: 100%;
+  margin: 0;
+  position: relative;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.hero-text{
+  font-family: "Odibee Sans";
+}
+
+br {   
+    content: "";
+    margin: 0em;
+    display: block;
+    margin-bottom: -30px; 
+ }
+
+.hero-text h3{
+  text-align: left;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /*padding-top: 5%;*/
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(file:///Users/valtermachado/Desktop/My%20Portifolio/images/heroPic.jpg);
+  height: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /*margin-top: 10%;*/
+
+}
+.showMoreBtn button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 0px 25px;
+  margin-top: 0%;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+button{
+  outline: none !important;
+  box-shadow: none;
+}
+.showMoreBtn{
+  width: 150px;
+  height: 150px;
+  /*background-color: red;*/
+  
+  position: absolute;
+  top:0;
+  bottom: -98%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+
+}
+.showMore {
+  background-image : url(file:///Users/valtermachado/Desktop/My%20Portifolio/images/down-arrow.png);
+/*background-position: center center;*/
+  background-size: cover;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  color: white;
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(10000%) contrast(100%);
+}
+
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+.techImagesContainer {
+    max-width: 600px;
+    margin: 0 auto;
+     width: 100%;
+}
+
+.images {
+    display:inline-block;
+    padding: 5px;
+    width: 45%;
+    /*background-color: #f4f4f4;*/
+}
+
+/*@media screen and (max-width: 600px) {
+  .images {
+    width: 100%;
+  }
+}*/
+   
+    /*img {
+        vertical-align:top;
+    }*/
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  /*display:inline-block;*/
+	margin: 0px 0px 50px 0px;
+    padding: 5px 5px 5px 5px;
+    /*height: 500px;*/
+    /*width: 400px;*/
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 4px 4px 4px 4px;*/
+    /*background-color: #f4f4f4; */
+    display:inline-block;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cardColumn {
+  float: left;
+  width: 33.33%;
+  /*display:inline-block;*/
+  margin: 0px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  display:inline-block;
+  color: gray;
+}
+
+.cardRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cardColumn img{
+  -webkit-filter: grayscale(5%);
+  filter: grayscale(50%);
+}
+
+.card-body{
+  background-color: #e3e3e3;
+      /*margin-bottom: 50%;*/
+}
+
+@media screen and (max-width: 600px) {
+  .cardColumn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h3{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.tag1{
+	margin: 0px 10px 0px 0px;
+    padding: 0px 0px 350px 0px;
+    height: auto;
+    width: 48%;
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 4px 4px 4px 4px;*/
+    /*background-color: #f4f4f4;*/
+    display:inline-block;
+    margin-bottom: 0%;
+}
+.tag1 p{
+	/*text-align: center;*/
+	margin:10;
+	padding:0;
+	border:0;
+	/*display:inline-block;*/
+	line-height: 1.6;
+	/*line-height: 32px; */
+  margin-bottom: 10px;
+	/*max-width:300px; 
+	max-height:300px;*/
+}
+.thingsIHaveBuiltContainer{
+	padding-bottom: 10%;
+}
+.contactMeContainer{
+	background-color: #e3e3e3;
+	/*padding-top: -10px; b5b5b5*/
+	padding-bottom: 5%;
+}
+
+
+.socialMediaContainer{
+	background-color: #0a0a0a;
+	padding-top: 14%;
+	padding-bottom: 1px;
+}
+.goToTopBtn{
+  padding-bottom:2%;
+}
+
+.goToTop {
+  background-image : url(file:///Users/valtermachado/Desktop/My%20Portifolio/images/down-arrow.png);
+/*background-position: center center;*/
+  background-size: cover;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  color: white;
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(10000%) contrast(100%);
+}
+.goToTop {
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+
+.goToTopBtn button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 0px 25px;
+  margin-top: 0%;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.socialMediaContainer p {
+  padding-top: 1%;
+	color: white;
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-instagram {
+  background: #f09433;
+  color: white;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  /*-webkit-background-clip: text;*/
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  /*-webkit-text-fill-color: transparent;*/
+  
+  font-size: 200px;
+}
+
+.fa-youtube {
+  background: #c4302b;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+
+.fa-reddit {
+  background: #FF5700;
+  color: white;
+}
+
+
+
+.avatarImage
+{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.avatarImage img {
+	width: 190px;
+  height: 190px;
+  border-radius: 100%;
+}
+
+.navbar 
+{
+  min-height: 50px;
+}
+
+.navbar-brand 
+{
+  height: 50px;
+  line-height: 80px;
+}
+
+
+.icon-bar {
+	width: 26px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 10px
+}
+ 
+.navbar-toggler {
+  border: none !important;
+  background: transparent !important;
+  padding: 9px 10px !important;
+  margin-right: 0 !important;
+}
+
+
+.navbar-toggler .top-bar {
+  transform: translate(3px) rotate(45deg);
+  transform-origin: 10% 10%;
+
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: translate(3px) rotate(-45deg);
+  transform-origin: 10% 90%;
+
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
