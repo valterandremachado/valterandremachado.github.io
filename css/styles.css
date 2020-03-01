@@ -24,7 +24,7 @@ a{
     font-family: "Catamaran";
 
 }
-
+/*
 @media screen and (max-width: 800px) {
    .mobile-nav{display:block;}
    .desktopnav{display:none;}
@@ -33,7 +33,7 @@ a{
 @media screen and (min-width: 801px) {
    .mobile-nav{display:none;}
    .desktopnav{display:block;}
-}
+}*/
 
 /*nav-item indicator */
 .navbar .active{
