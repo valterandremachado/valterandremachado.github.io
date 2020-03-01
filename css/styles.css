@@ -53,8 +53,8 @@ a{
 	/*height: 20px;*/
   font-family: "Catamaran";
   transition-duration: 1.5s;
-
-
+  background-color: #242424;
+  background-color: rgba(0, 0, 0, .4);
 }
 
 div{
