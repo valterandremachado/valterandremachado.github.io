@@ -158,7 +158,7 @@ br {
 
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(file:///Users/valtermachado/Desktop/My%20Portifolio/images/heroPic.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://valterandremachado.github.io/images/heroPic.jpg);
   height: 95%;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@ button{
 
 }
 .showMore {
-  background-image : url(file:///Users/valtermachado/Desktop/My%20Portifolio/images/down-arrow.png);
+  background-image : url(https://valterandremachado.github.io/images/down-arrow.png);
 /*background-position: center center;*/
   background-size: cover;
   display: inline-block;
@@ -353,7 +353,7 @@ h3{
 }
 
 .goToTop {
-  background-image : url(file:///Users/valtermachado/Desktop/My%20Portifolio/images/down-arrow.png);
+  background-image : url(https://valterandremachado.github.io/images/down-arrow.png);
 /*background-position: center center;*/
   background-size: cover;
   display: inline-block;
