@@ -1,4 +1,9 @@
 
+
+function goBack() {
+  window.history.back()
+}
+
 function myFunction() {
   var element = document.getElementById("aboutMeID");
   element.scrollIntoView();
