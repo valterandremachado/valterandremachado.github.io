@@ -92,10 +92,10 @@ body, html {
 
 @media screen and (max-width: 1000px) {
 
-  div.columnLeft {
+  /*div.columnLeft {
     font-size: 70%;
     height: 400px;
-  }
+  }*/
 
   .columnLeft h6{
 	font-size: 70%;
