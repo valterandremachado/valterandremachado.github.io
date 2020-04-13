@@ -90,10 +90,11 @@ body, html {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
   div.columnLeft {
     font-size: 50%;
+    height: 300px;
   }
 
   .columnLeft h6{
