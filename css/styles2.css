@@ -91,7 +91,7 @@ body, html {
 
 
 @media screen and (max-width: 1000px) {
-  /**/
+  
 .left {
     width: 40%;
   }
@@ -105,7 +105,7 @@ body, html {
   }
 
   .columnLeft h6, h5, p{
-  font-size: 60%;
+  font-size: 70%;
   padding-right: 20%;
 }
 
