@@ -151,18 +151,19 @@ br {
     content: "";
     margin: 0em;
     display: block;
-    margin-bottom: -30px; 
+    margin-bottom: -35px; 
  }
 
 .hero-text h3{
   text-align: left;
   position: absolute;
   top: 75%;
-  left: 25%;
+  left: 59%;
+  width: 300px;
   transform: translate(-50%, -50%);
-  color: white;
+  /*color: white;*/
   /*padding-top: 5%;*/
-  border-bottom: 1px solid white;
+  /*border-bottom: 1px solid white;*/
   color: white;
 }
 
