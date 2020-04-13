@@ -247,6 +247,20 @@ button{
     /*background-color: #f4f4f4;*/
 }
 
+/* Style the images inside the grid */
+.images img {
+  opacity: 0.8; 
+  cursor: pointer; 
+  /*margin: 5PX;*/
+  filter: grayscale(100%);
+
+}
+
+.images img:hover {
+  opacity: 1;
+  filter: brightness(100%);
+}
+
 /*@media screen and (max-width: 600px) {
   .images {
     width: 100%;
