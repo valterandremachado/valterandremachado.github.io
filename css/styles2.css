@@ -90,18 +90,18 @@ body, html {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1900px) {
 
   div.columnLeft {
     font-size: 50%;
-    height: 400px;
+    height: 600px;
   }
 
   .columnLeft h6{
 	font-size: 50%;
 }
 	.columnRight img {
-		height: 400px;
+		height: 600px;
 	}
 
   .navbar-brand
@@ -112,7 +112,7 @@ body, html {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1900px) {
 .navbar-brand
     {
         position: absolute;
