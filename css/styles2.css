@@ -97,10 +97,10 @@ body, html {
   .right{
     width: 60%;
   }
-  
+
   .columnLeft {
     /*font-size: 70%;*/
-    height: 400px;
+    height: 250px;
   }
 
   .columnLeft h6, h5, p{
@@ -111,7 +111,7 @@ body, html {
   font-size: 100%;
 }*/
   .columnRight img {
-    height: 400px;
+    height: 250px;
   }
 
   .navbar-brand
