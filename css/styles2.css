@@ -92,21 +92,21 @@ body, html {
 
 @media screen and (max-width: 1000px) {
 
-  /*div.columnLeft {
-    font-size: 70%;
+  .columnLeft {
+    /*font-size: 70%;*/
     height: 400px;
-  }*/
+  }
 
-  .columnLeft h6{
-	font-size: 70%;
+  .columnLeft h6, h5, p{
+  font-size: 50%;
 }
 
-.columnLeft h5{
-  font-size: 70%;
-}
-	.columnRight img {
-		height: 400px;
-	}
+/*.columnLeft h5{
+  font-size: 100%;
+}*/
+  .columnRight img {
+    height: 400px;
+  }
 
   .navbar-brand
     {
